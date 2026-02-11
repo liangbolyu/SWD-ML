@@ -161,7 +161,7 @@ for(i in 1:m){
     traindata=data.frame(y=Ytrain,Xtrain)
     
     #unadjusted
-    model=lm(y~.,data=traindata)
+    model=lm(y~1,data=traindata)
     ypred=predict(model,newdata = Xtest)
     
     #linear regression
@@ -512,7 +512,7 @@ for(i in 1:m){
     traindata=data.frame(y=Ytrain,Xtrain)
     
     #unadjusted
-    model=lm(y~.,data=traindata)
+    model=lm(y~1,data=traindata)
     ypred=predict(model,newdata = Xtest)
     
     #linear regression
@@ -694,3 +694,4 @@ betavif=betaest
 da$betavifavg=mean(betavif)
 vm=t(ssl)%*%vmvif%*%ssl
 da$sdvifavg=sqrt(vm)
+
