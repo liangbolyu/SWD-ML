@@ -1,4 +1,4 @@
-# R code for "Optimizing precision in stepped-wedge designs via machine learning and quadratic inference functions"
+## R code for "Optimizing precision in stepped-wedge designs via machine learning and quadratic inference functions"
 
 This repository includes the code for the simulation and data analysis presented in the paper "Optimizing precision in stepped-wedge designs via machine learning and quadratic inference functions". 
 
