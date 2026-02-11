@@ -4,4 +4,4 @@ This repository includes the code for the simulation and data analysis presented
 
 - __simulation1.R__, __simulation2.R__ refers to the code for the constant treatment effect and duration treatment effect, respectively.
 - __real data 1.R__ refers to the data analysis for IPOS data (https://zenodo.org/records/4008427)
-
+- __real data 2.R__ refers to the data analysis for Chicago Police Training Program (https://github.com/george-wood/procedural_justice)
