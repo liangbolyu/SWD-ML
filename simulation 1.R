@@ -159,7 +159,7 @@ for(i in 1:m){
     traindata=data.frame(y=Ytrain,Xtrain)
     
     #unadjusted
-    model=lm(y~.,data=traindata)
+    model=lm(y~1,data=traindata)
     ypred=predict(model,newdata = Xtest)
     
     #linear regression
@@ -620,3 +620,4 @@ vmvif=fv
 
 
 da=data.frame(betabase=betaes,sdbase=sqrt(vm),betavif=betavif,sdvif=sqrt(vmvif))
+
